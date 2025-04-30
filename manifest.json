@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Encrypted Calculator",
+    "version": "1.8",
+    "description": "A calculator extension with scientific functionality that uses encryption (AES) to quickly produce results in the browser.",
+    "permissions": [
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "extension_icon16.png",
+        "48": "extension_icon48.png",
+        "128": "extension_icon128.png"
+      }
+    },
+    "background": {
+      "scripts": [
+        "./scripts/background.js"
+      ]
+    },
+    "icons": {
+      "16": "extension_icon16.png",
+      "48": "extension_icon48.png",
+      "128": "extension_icon128.png"
+    },
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "{d2ea3994-9e6d-425b-a28d-84e530e8e116}"
+      }
+    }
+  }
