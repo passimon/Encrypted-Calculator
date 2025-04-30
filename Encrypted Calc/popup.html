@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="./scripts/math.js" type="text/javascript"></script>
+    <title>Encrypted Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" id="display" />
+      </div>
+      <div class="button-container">
+        <div class="left-buttons">
+          <div class="button-group">
+            <button class="btn" data-value="sqrt(">²√</button>
+            <button class="btn" data-value="nthRoot(">ⁿ√</button>
+            <button class="btn" data-value="^2">x²</button>
+            <button class="btn" data-value="^">xⁿ</button>
+          </div>
+          <div class="button-group">
+            <button class="btn" data-value="log(">log</button>
+            <button class="btn" data-value="exp(">eˣ</button>
+            <button class="btn" data-value=",">,</button>
+            <button class="btn" data-value="!">x!</button>
+          </div>
+          <div class="button-group">
+            <button class="btn" data-value="sin(">sin</button>
+            <button class="btn" data-value="cos(">cos</button>
+            <button class="btn" data-value="tan(">tan</button>
+            <button class="btn" data-value="pi">π</button>
+          </div>
+          <div class="button-group">
+            <button class="btn clear" data-value="C">C</button>
+            <button class="btn" data-value="(">(</button>
+            <button class="btn" data-value=")">)</button>
+            <button class="btn clear" data-value="CE">⌫</button>
+          </div>
+        </div>
+        <div class="right-buttons">
+          <div class="button-group">
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn operator" data-value="/">/</button>
+          </div>
+          <div class="button-group">
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn operator" data-value="*">*</button>
+          </div>
+          <div class="button-group">
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn operator" data-value="-">-</button>
+          </div>
+          <div class="button-group">
+            <button class="btn" data-value="=" id="equals" class="equals">
+              =
+            </button>
+            <button class="btn" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn operator" data-value="+">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/popup.js"></script>
+  </body>
+</html>
