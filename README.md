@@ -10,4 +10,4 @@ A calculator extension with scientific functionality that uses encryption (AES) 
 
 
 Chrome: https://chromewebstore.google.com/detail/encrypted-calculator/cmjikefegmcdkiicdcknjbbllnbdjpig
-Firefox: https://addons.mozilla.org/en-US/firefox/addon/encrypted-calculator/
+
