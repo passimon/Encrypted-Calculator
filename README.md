@@ -90,4 +90,3 @@ Chrome Webstore: https://chromewebstore.google.com/detail/encrypted-calculator/c
 ## License
 
 MIT License  
-See [LICENSE](LICENSE) for details.
